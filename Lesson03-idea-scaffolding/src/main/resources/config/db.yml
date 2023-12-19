@@ -1,0 +1,5 @@
+spring :
+     db :
+        url : jdbc:mysql://localhost:3306/boot_db
+        name : root
+        password : root

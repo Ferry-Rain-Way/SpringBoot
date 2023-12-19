@@ -1,0 +1,11 @@
+
+
+spring :
+  ## ?????
+    config :
+      import :
+       config/db.yml ,config/redis.yml,data/stu.yaml,data/security.yml,data/conllection.yml
+    ## ?????
+    profiles :
+      active : dev # ????????????
+

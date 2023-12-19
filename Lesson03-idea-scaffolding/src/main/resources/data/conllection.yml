@@ -1,0 +1,25 @@
+#集合以及数组
+#List<String> names
+names:
+  - lisi
+  - zhangsan
+
+#List<MyServer> servers
+servers:
+  - title: 华北服务器
+    ip: 202.12.39.1
+  - title: 西南服务器
+    ip: 106.90.23.229
+  - title: 南方服务器
+    ip: 100.21.56.23
+
+#Map<String,User> users
+users:
+  user1:
+    name: 张三
+    sex: 男
+    age: 22
+  user2:
+    name: 李四
+    sex: 男
+    age: 26

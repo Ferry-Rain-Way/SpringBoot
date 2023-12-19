@@ -1,0 +1,6 @@
+app :
+  name : test-yaml
+spring:
+  config:
+    activate:
+      on-profile: test # 当前文件其作用时的环境名称

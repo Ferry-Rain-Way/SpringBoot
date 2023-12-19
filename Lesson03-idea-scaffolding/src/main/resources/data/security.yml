@@ -1,0 +1,9 @@
+app:
+ name: Lession07-yml
+ owner: bjpowernode
+ port: 8002
+# app.security.username=root
+# app.security.password=123456
+ security:
+  username: root
+  password: 123456

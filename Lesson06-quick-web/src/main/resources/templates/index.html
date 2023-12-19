@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>文件上传</h3>
+
+<form  action="/files" enctype="multipart/form-data" method="post">
+    选择文件: <br/>
+    <input type="file" name="upfile" >
+    <input type="submit" value="上传文件">
+</form>
+
+
+### Order<br>
+<form action="/order/new" method="post" name="order">
+    name:<input type="text" name="name"/><br>
+    userId: <input type="number" name="userId"/><br>
+    amount:<input type="number" name="amount"/><br>
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>
